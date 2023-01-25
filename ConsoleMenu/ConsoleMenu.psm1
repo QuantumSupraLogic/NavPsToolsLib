@@ -1,7 +1,7 @@
 using namespace System.Collections.Generic
-using module .\lib\ConsoleMenu\MenuItem.psm1
+using module .\ConsoleMenu\MenuItem.psm1
 
 class ConsoleMenu {
-    [List[MenuItem]] $MenuItems 
+    [MenuItem] $MenuItems 
 
 }
